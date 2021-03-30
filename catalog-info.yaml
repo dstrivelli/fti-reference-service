@@ -18,4 +18,4 @@ spec:
   providesApis:
     - fti-reference-service
   consumesApis:
-    - bip-reference-service
+    - bip-reference-person-api
