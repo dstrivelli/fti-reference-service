@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: fti-reference-service-api
+  name: fti-reference-service
   description: "The FTI Reference Service serves as an archetype application, used for bootstrapping new applications that will reside in the FTI Secure Enclave."
 spec:
   type: openapi
