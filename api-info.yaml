@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: fti-reference-service-api
+  description: "The FTI Reference Service serves as an archetype application, used for bootstrapping new applications that will reside in the FTI Secure Enclave."
+spec:
+  type: openapi
+  lifecycle: production
+  owner: "fti"
+  definition:
+    $text: https://github.com/dstrivelli/fti-reference-service/blob/master/openapi.yaml

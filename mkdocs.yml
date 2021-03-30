@@ -1,0 +1,8 @@
+site_name: "fti-reference-service"
+site_description: "The FTI Reference Service serves as an archetype application, used for bootstrapping new applications that will reside in the FTI Secure Enclave."
+
+nav:
+  - Overview: index.md
+
+plugins:
+  - techdocs-core
