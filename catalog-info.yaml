@@ -3,6 +3,11 @@ kind: Component
 metadata:
   name: "fti-reference-service"
   description: "The FTI Reference Service serves as an archetype application, used for bootstrapping new applications that will reside in the FTI Secure Enclave."
+  tags:
+    - fti 
+    - reference 
+    - archetype 
+    - starter
   annotations:
     github.com/project-slug: dstrivelli/fti-reference-service
     backstage.io/techdocs-ref: url:https://github.com/dstrivelli/fti-reference-service
