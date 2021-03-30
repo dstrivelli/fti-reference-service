@@ -17,3 +17,5 @@ spec:
   owner: "fti"
   providesApis:
     - fti-reference-service
+  consumesApis:
+    - bip-reference-service
